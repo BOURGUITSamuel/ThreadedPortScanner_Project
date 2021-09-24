@@ -3,10 +3,11 @@ import re
 import time
 import threading
 import concurrent.futures
+import pyfiglet
 import colorama
 from colorama import Fore
-import pyfiglet
 
+# Use Colorama to make Termcolor work on Windows OS
 colorama.init()
 
 # Add Banner
@@ -52,4 +53,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    time.sleep(20)
+
