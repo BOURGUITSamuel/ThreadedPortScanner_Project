@@ -3,7 +3,7 @@ Scanner de port Python utilisant le multithreading.
 
 # Getting Started
 Un scanner de ports est simplement un script qui essaie d'établir une connexion avec un périphérique via une liste de ports, de cette manière nous pouvons voir quels ports sont ouverts sur un périphérique.
-Il s'agit d'un simple script de scanner de port multithread réalisé avec python, car il faut au moins une seconde pour vérifier si un port est ouvert ou fermé en raison de la nécessité d'attendre le délai d'attente pour vérifier s'il est fermé ou si le retard est causé par un retard de connexion, ce script vous permet de choisir combien de threads vous souhaitez utiliser pour le scan, l'avantage d'utiliser plusieurs threads est que chaque thread serait capable de scanner différents ports en même temps.
+Il s'agit d'un simple script de scanner de port multithread réalisé avec python. Ce script vous permet de choisir combien de threads vous souhaitez utiliser pour le scan, l'avantage d'utiliser plusieurs threads est que chaque thread serait capable de scanner différents ports en même temps.
 # Prerequisites
 Le programme peut être exécuté sur un système d'exploitation Windows(en utilisant un IDE ou la version windows de python) ou Linux.
 
