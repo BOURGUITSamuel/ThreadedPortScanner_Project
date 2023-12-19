@@ -2,28 +2,28 @@
 Scanner de port Python utilisant le multithreading.
 
 # Getting Started
-Un scanner de ports est simplement un script qui essaie d'établir une connexion avec un périphérique via une liste de ports, de cette manière nous pouvons voir quels ports sont ouverts sur un périphérique.
-Il s'agit d'un simple script de scanner de port multithread réalisé avec python. Ce script vous permet de choisir combien de threads vous souhaitez utiliser pour le scan, l'avantage d'utiliser plusieurs threads est que chaque thread serait capable de scanner différents ports en même temps.
+Un scanner de ports est simplement un script qui essaie d'Ã©tablir une connexion avec un pÃ©riphÃ©rique via une liste de ports, de cette maniÃ¨re nous pouvons voir quels ports sont ouverts sur un pÃ©riphÃ©rique.
+Il s'agit d'un simple script de scanner de port multithread rÃ©alisÃ© avec python. Ce script vous permet de choisir combien de threads vous souhaitez utiliser pour le scan, l'avantage d'utiliser plusieurs threads est que chaque thread serait capable de scanner diffÃ©rents ports en mÃªme temps.
 # Prerequisites
-Le programme peut être exécuté sur un système d'exploitation Windows(en utilisant un IDE ou la version windows de python) ou Linux.
+Le programme peut Ãªtre exÃ©cutÃ© sur un systÃ¨me d'exploitation Windows(en utilisant un IDE ou la version windows de python) ou Linux.
 
-Le programme a été conçu avec le langage Python (version3).
+Le programme a Ã©tÃ© conÃ§u avec le langage Python (version3).
 
 le module python 'colorama' est requis : https://pypi.org/project/colorama/
 
 le module python 'pyfiglet' est requis :  https://pypi.org/project/pyfiglet/#description
 
 # Installing & Using
-1- Copiez le fichier dans le répertoire de votre choix.
+1- Copiez le fichier dans le rÃ©pertoire de votre choix.
 
-2- Lancez le programme avec la commande suivante : python ThreadedPortScanner.py.py
+2- Lancer le programme avec la commande suivante : python ThreadedPortScanner.py.py
 
-3- Vous pouvez appliquer vos propres paramètres en modifiant le script.
+3- Vous pouvez appliquer vos propres paramÃ¨tres en modifiant le script.
 
 # Running the tests
-Le programme a été conçu dans un environnement de développement intégré(IDE) sur l'OS Windows 10 64Bits.
+Le programme a Ã©tÃ© conÃ§u dans un environnement de dÃ©veloppement intÃ©grÃ©(IDE) sur l'OS Windows 10 64Bits.
 
-Le programme a été testé sur l'OS Debian 64bits.
+Le programme a Ã©tÃ© testÃ© sur l'OS Debian 64bits.
 # Versioning
 Version 1.0
 
